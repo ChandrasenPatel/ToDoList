@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+
+}
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 400px;
+    height: 450px;
+    border: 2px solid rgb(97, 130, 52);
+    border-radius: 5px;
+    overflow-y: auto;
+
+}
+
+.Input {
+    display: flex;
+    margin-top: 10px;
+    border: 2px solid rgb(129, 129, 200);
+    border-radius: 5px;
+
+}
+
+button {
+    background-color: rgb(88, 152, 241);
+}
+
+ul {
+    list-style: none;
+
+}
+
+.listdiv {
+    display: flex;
+    border: 2px solid green;
+    border-radius: 5px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+
+}
+
+.listtask {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 30px;
+    width: 240px;
+    padding: 2px;
+    gap: 2px
+}
+
+.text_discription {
+    border: none;
+    outline: none;
+    resize: none;
+    height: 28px;
+    width: 200px;
+
+}
+
+.done {
+    background-color: green;
+    margin: 3px;
+    border-radius: 5px;
+
+}
+
+.Delete {
+    background-color: red;
+    margin: 3px;
+    border-radius: 5px;
+}
